@@ -51,14 +51,13 @@ function Main() {
           </div>
 
           <div class="col-12 col-md-7 order-1 order-md-2">
-            <div class="project-slider project-slide-card">
-              <Slider {...settings}>
+
+              <Slider className="project-slide-card" {...settings}>
                 <img class="project" src={projectOne} alt="slide-1" />
 
                 <img class="project" src={projectTwo} alt="slide-2" />
                 <img class="project" src={projectThree} alt="slide-2" />
               </Slider>
-            </div>
           </div>
         </div>
       </section>
