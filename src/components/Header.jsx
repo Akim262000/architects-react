@@ -1,4 +1,6 @@
+import { NavLink } from "react-router";
 import logoHeader from "../images/architects-logo.svg"
+
 
 function Header() {
   return (
@@ -24,16 +26,21 @@ function Header() {
             class="burger-menu collapse navbar-collapse justify-content-center"
             id="navbarNavAltMarkup"
           >
-            <div class="border-menu navbar-nav">
-              <a
-                class="nav-link active font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
+            <nav class="border-menu navbar-nav">
+              <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/">Main</NavLink>
+              <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/gallery">GALLERY</NavLink>
+              <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/projects">PROJECTS</NavLink>
+              <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/certifications">CERTIFICATIONS</NavLink>
+              <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 text-center text-xl-start" to="/contacts">COntacts</NavLink>
+              {/* <a
+                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
                 href="/#"
               >
                 Main
               </a>
               <a
                 class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
-                href="/#"
+                href="/gallery"
               >
                 GALLERY
               </a>
@@ -54,8 +61,8 @@ function Header() {
                 href="/#"
               >
                 COntacts
-              </a>
-            </div>
+              </a> */}
+            </nav>
           </div>
         </div>
       </nav>
