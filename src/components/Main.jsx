@@ -1,7 +1,7 @@
 import projectOne from "../images/project-1.jpg";
 import projectTwo from "../images/project-1.jpg";
 import projectThree from "../images/project-1.jpg";
-import Line from "../images/line.svg";
+import line from "../images/line.svg";
 import aboutOne from "../images/about-1.jpg";
 import aboutTwo from "../images/about-2.jpg";
 import aboutThree from "../images/about-3.jpg";
@@ -45,7 +45,7 @@ function Main() {
           </h2>
           <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start order-2 order-md-1">
             <h2 class="font-64 fw-light lh-64 text-gray-two text-uppercase mb-0 d-none d-md-block">
-              project<span class="text-black fw-bold">Lorem</span>
+              project<br /><span class="text-black fw-bold">Lorem</span>
             </h2>
             <div class="d-flex flex-row flex-md-column justify-content-around mt-150 mb-80 w-100">
               <div class="project-slider-navigation d-flex">
@@ -54,7 +54,7 @@ function Main() {
               </div>
               <div class="d-flex align-items-center mt-90">
                 <span class="font-24 fw-normal text-gray-two lh-24 me-4">01</span>
-                <img src={Line} alt="" />
+                <img src={line} alt="" />
                 <span class="font-24 fw-normal text-gray-two lh-24 ms-4">03</span>
               </div>
             </div>
