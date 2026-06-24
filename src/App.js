@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Gallery from "./components/Gallery"
 import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
+import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </main>
       <Footer />
