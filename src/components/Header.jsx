@@ -32,36 +32,6 @@ function Header() {
               <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/projects">PROJECTS</NavLink>
               <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/certifications">CERTIFICATIONS</NavLink>
               <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 text-center text-xl-start" to="/contacts">COntacts</NavLink>
-              {/* <a
-                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
-                href="/#"
-              >
-                Main
-              </a>
-              <a
-                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
-                href="/gallery"
-              >
-                GALLERY
-              </a>
-              <a
-                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
-                href="/#"
-              >
-                PROJECTS
-              </a>
-              <a
-                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start"
-                href="/#"
-              >
-                CERTIFICATIONS
-              </a>
-              <a
-                class="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 text-center text-xl-start"
-                href="/#"
-              >
-                COntacts
-              </a> */}
             </nav>
           </div>
         </div>

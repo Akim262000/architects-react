@@ -1,3 +1,5 @@
+import { Link } from "react-router"
+
 import projectOne from "../images/sample-project-1.jpg"
 import projectTwo from "../images/sample-project-2.jpg"
 import projectThree from "../images/sample-project-3.jpg"
@@ -38,9 +40,9 @@ function Projects() {
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                   </p>
-                  <a
+                  <Link
                     class="font-12 fw-normal text-gray-one bg-white lh-12 py-4 ps-35 pe-64 ls-20 text-decoration-none text-uppercase mt-4 mt-lg-0"
-                    href=""
+                    to="/projects/project-detail"
                   >
                     View More
                     <img
@@ -48,7 +50,7 @@ function Projects() {
                       src={arrowNext}
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -74,9 +76,9 @@ function Projects() {
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                   </p>
-                  <a
+                  <Link
                     class="font-12 fw-normal text-gray-one bg-white lh-12 py-4 ps-35 pe-64 ls-20 text-decoration-none text-uppercase mt-4 mt-lg-0"
-                    href=""
+                    to="/projects/project-detail"
                   >
                     View More
                     <img
@@ -84,7 +86,7 @@ function Projects() {
                       src={arrowNext}
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -110,9 +112,9 @@ function Projects() {
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                   </p>
-                  <a
+                  <Link
                     class="font-12 fw-normal text-gray-one bg-white lh-12 py-4 ps-35 pe-64 ls-20 text-decoration-none text-uppercase mt-4 mt-lg-0"
-                    href=""
+                    to="/projects/project-detail"
                   >
                     View More
                     <img
@@ -120,7 +122,7 @@ function Projects() {
                       src={arrowNext}
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
