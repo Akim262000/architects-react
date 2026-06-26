@@ -4,14 +4,14 @@ import logoHeader from "../images/architects-logo.svg"
 
 function Header() {
   return (
-    <header class="header mt-30 mb-30">
-      <nav class="navbar navbar-expand-xl navbar-light p-0">
-        <div class="container d-flex flex-row justify-content-between">
-          <a class="navbar-brand" href="/#">
+    <header className="header mt-30 mb-30">
+      <nav className="navbar navbar-expand-xl navbar-light p-0">
+        <div className="container d-flex flex-row justify-content-between">
+          <a className="navbar-brand" href="/#">
             <img src={logoHeader} alt="Header logo" />
           </a>
           <button
-            class="navbar-toggler collapsed"
+            className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -19,14 +19,14 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           <div
-            class="burger-menu collapse navbar-collapse justify-content-center"
+            className="burger-menu collapse navbar-collapse justify-content-center"
             id="navbarNavAltMarkup"
           >
-            <nav class="border-menu navbar-nav">
+            <nav className="border-menu navbar-nav">
               <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/">Main</NavLink>
               <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/gallery">GALLERY</NavLink>
               <NavLink className="nav-link font-12 fw-normal text-gray-one lh-12 ls-20 text-uppercase py-2 px-3 me-50 text-center text-xl-start" to="/projects">PROJECTS</NavLink>

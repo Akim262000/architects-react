@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main class="container">
+      <main className="container">
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/gallery" element={<Gallery />} />

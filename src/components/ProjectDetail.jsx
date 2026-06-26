@@ -23,7 +23,7 @@ export default function ProjectDetail() {
             alt=""
           />
         </div>
-        <div class="col-12 col-md-6 col-xl-8">
+        <div className="col-12 col-md-6 col-xl-8">
           <p className="font-16 fw-light text-black lh-24 mb-0">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
