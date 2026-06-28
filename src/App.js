@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className="container">
+      <main className="container mt-170">
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/gallery" element={<Gallery />} />
